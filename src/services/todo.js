@@ -46,7 +46,7 @@ export function updateStatus(items, itemId, completed) {
  */
 let todoCounter = 1;
 
-function getNextId() {
+export function getNextId() {
     return getAll().length + todoCounter++;
 }
 
